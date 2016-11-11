@@ -1,12 +1,13 @@
 # EXPANDTEMPLATE
-This utility creates text file containing repeated/incremental/decremental pattern from a given template. It is very useful especially when you want create table for a relational database
+This utility creates text file containing repeated/incremental/decremental patterns on the basis of a given template. It is very useful especially when you want to create table for a relational database
 
 #USAGE
 
 -sample_template.txt
 
 ----------------------------------------------------------
-    #SEQ1 srno=1:step:999
+    #SEQ1 srno=1:step:99
+    //* Heading- (this is a comment)
     #FOR entries=1:1:noofentries
     <<srno:3>>)  Entry no=<<entries>>
     #END_FOR
@@ -16,3 +17,7 @@ This utility creates text file containing repeated/incremental/decremental patte
 -command line usage
 
     ./expandtemplate sample_template.txt output_file.txt step:2 noofentries:50
+
+
+    ./expandtemplate [input file] [output file] [variable name:value].......
+    --include_comments will include comments also (for debugging purpose)
