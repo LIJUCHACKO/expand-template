@@ -3,7 +3,8 @@ This utility creates text file containing repeated/incremental/decremental patte
 
 #USAGE
 
-*sample_template.txt
+-sample_template.txt
+
 ----------------------------------------------------------
     #SEQ1 srno=1:step:999
     #FOR entries=1:1:noofentries
@@ -12,6 +13,6 @@ This utility creates text file containing repeated/incremental/decremental patte
     #END_SEQ1
 --------------------------------------------------------------
 
-*command line usage
+-command line usage
 
     ./expandtemplate sample_template.txt output_file.txt step:2 noofentries:50
