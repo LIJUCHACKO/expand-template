@@ -7,11 +7,11 @@ Create text file containing repeated/incremental/decremental pattern from a give
 
 sample_template.txt
 ----------------------------------------------------------
-#SEQ1 srno=1:step:999
-#FOR entries=1:1:noofentries
-<<srno:3>>)  Entry no=<<entries>>
-#END_FOR
-#END_SEQ1
+    #SEQ1 srno=1:step:999
+    #FOR entries=1:1:noofentries
+    <<srno:3>>)  Entry no=<<entries>>
+    #END_FOR
+    #END_SEQ1
 --------------------------------------------------------------
 
 command line usage
