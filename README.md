@@ -22,9 +22,10 @@ This utility creates text file containing repeated/incremental/decremental patte
 
     ./expandtemplate sample_template.txt output_file.txt step:2 noofentries:10
 
-
     ./expandtemplate [input file] [output file] [variable name:value].......
+
     --include_comments will include comments also (for debugging purpose)
+    
 - Note: All computations are integer based
 
 ##OUTPUT
