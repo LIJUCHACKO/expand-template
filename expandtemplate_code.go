@@ -285,11 +285,11 @@ func main() {
 					    step=evaluateexpress(limits[1])
 					}
 					endval=evaluateexpress(limits[2])
-					if endval>=startedval {
-					     step=ABSOLUTE(step)
-					}else{
-					     step=-ABSOLUTE(step)
-					}
+					//if endval>=startedval {
+					//     step=ABSOLUTE(step)
+					//}else{
+					//     step=-ABSOLUTE(step)
+					//}
 				} 
 				started=started+1	
 				
