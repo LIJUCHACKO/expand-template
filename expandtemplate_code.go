@@ -157,7 +157,7 @@ func replacevariablename(line string,orginal string,rplace string ) (string,bool
 
 
 func main() {
-        fmt.Printf("---expandtemplate--VER. 27/10/2016 6\n -------------------------------")
+        fmt.Printf("---expandtemplate--VER. 15/12/2016 \n -------------------------------")
 	argsWithProg := os.Args
          if len(argsWithProg)<3 {
 	    fmt.Printf("\n   usage- [--include_comments][parameter1:value] [parameter2:value].. [template-file] [output-file]")
