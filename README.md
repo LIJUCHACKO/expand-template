@@ -24,7 +24,7 @@ This utility creates text file containing repeated/incremental/decremental patte
 
     ./expandtemplate [input file] [output file] [variable name:value].......
 
-    --include_comments will include comments also (for debugging purpose)
+    --include_comments will include comments in the output file(from input file) (for debugging purpose)
     
 - Note: All computations are integer based
 
