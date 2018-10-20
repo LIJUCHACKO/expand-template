@@ -1,9 +1,9 @@
 # EXPANDTEMPLATE
 This utility creates text file containing repeated/incremental/decremental patterns on the basis of a given template. It is very useful especially when you want to create table for a relational database
 
-#USAGE
+## USAGE
 
-##INPUT FILE
+### INPUT FILE
 - sample_template.txt
 
 ----------------------------------------------------------
@@ -17,7 +17,7 @@ This utility creates text file containing repeated/incremental/decremental patte
 
 - Note: Read "writing expand template script.pdf" for help
 
-##EXPANDING
+### EXPANDING
 - command line usage
 
     ./expandtemplate sample_template.txt output_file.txt step:2 noofentries:10
@@ -28,7 +28,7 @@ This utility creates text file containing repeated/incremental/decremental patte
     
 - Note: All computations are integer based
 
-##OUTPUT
+### OUTPUT
 - output_file.txt
 
 ----------------------------------------------------------
